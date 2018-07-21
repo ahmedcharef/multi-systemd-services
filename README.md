@@ -1,9 +1,7 @@
 # multi-systemd-services
 
-## Controlling multiple systemd services application
 
-
-###### systemd is the default service manager on all major Linux distributions. We’re going to demonstrate how it can be used to control a custom multi-service application.
+###### Systemd is a suite of software that provides fundamental building blocks for a Linux operating system
 
 ## Adding the application services to systemd
 
