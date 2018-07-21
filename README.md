@@ -1,7 +1,7 @@
 # multi-systemd-services
 
 
-###### Systemd is a suite of software that provides fundamental building blocks for a Linux operating system
+###### Systemd is a suite of software that provides fundamental building blocks for a Linux operating system.
 
 ## Adding the application services to systemd
 
