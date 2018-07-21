@@ -1,0 +1,16 @@
+[Unit]
+Description=Application 1
+# When systemd stops or restarts the startApp.service, the action is propagated to this unit
+PartOf=startApp.service
+# Start this unit after the app.service start
+After=startApp.service
+
+[Service]
+# Pretend that the component is running
+ExecStart=/home/pythonexemple.py
+# Restart the service on non-zero exit
+Restart=on-failure
+
+[Install]
+# This unit should start when app.service is starting
+WantedBy=startApp.service
