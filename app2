@@ -1,0 +1,11 @@
+[Unit]
+Description=Application 2
+PartOf=startApp.service
+After=startApp.service
+
+[Service]
+ExecStart=/bin/sleep
+Restart=on-failure
+
+[Install]
+WantedBy=startApp.service
